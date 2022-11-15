@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.CompanyName
+{
+    font-family: 'Irish Grover';
+    color: #E6781C;
+    font-size: xx-large;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    cursor: pointer;
+}
+
+.FirstSection
+{
+    background-image: url("Images/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.flexcontainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Icones
+{
+    width: 19vh;
+    display: flex;
+    justify-content: space-between;
+    color: #E6781C;
+    padding-right: 5vh;
+    padding-top: 5vh;
+    cursor: pointer;
+}
+
+.Title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inspiration';
+    font-size: 16vh;
+    font-weight: lighter;
+    color: white;
+    margin-top: 28vh;
+    margin-bottom: 8vh;
+    text-shadow: 2px 2px #E6781C;
+}
+.Button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    height: 8vh;
+    width: 24vh;
+    background-color: #E6781C;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+section
+{
+    background-color: #FFE9D0;
+}
+
+.SecondSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.SecondSectionTitle
+{
+    font-family: 'Inspiration';
+    color: #E6781C;
+    font-size:  10vh;
+    padding-top: 12vh;
+    padding-bottom: 8vh;
+}
+
+figure>img
+{
+    height: auto;
+    width: 20%;
+    border-radius: 6px;
+}
+
+.Pictures
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+figure+p
+{
+    font-weight: bold;
+    font-family: 'Irish Grover';
+    font-size: larger;
+    padding-top: 10vh;
+    padding-right: 7vh;
+    padding-left: 7vh;
+    padding-bottom: 7vh;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
+h2
+{
+    font-family: 'Poppins';
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 7vh;
+}
+.Paragraphe
+{
+    color: black;
+    font-family: 'Poppins';
+    font-size:medium;
+    text-align: left;
+    padding-bottom: 5vh;
+    padding-left: 7vh;
+}
+.SecondButton
+{
+    margin-left: 7vh;
+}
+.Program
+{
+    display: flex;
+    background-color: #FFE9D0;
+}
+.AgendaTitle
+{
+    background-color: #FFE9D0;
+}
+.IntroProgram
+{
+    padding-right: 10vh;
+    flex-shrink: 1;
+}
+.Agenda
+{
+    flex-shrink: 1;
+}
+.Description
+{
+    padding-left: 4vh;
+    font-family: 'Poppins';
+}
+.Description2
+{
+    padding-left: 4vh;
+    font-family: 'Poppins';
+    
+}
+.Gap
+{
+    background-color:#E6781C;
+    height: 5vh;
+    width: 1px;
+    margin-left: 3vh;
+}
+.Days
+{
+    background-color: #E6781C;
+    height: 5vh;
+    width: 10vh;
+    border-radius: 4px;
+}
+.Name
+{
+    font-family: 'Irish Grover';
+}
+
+.TitleMap, .SubTitle
+{
+    font-family: 'poppins';
+    text-align: center;
+    padding-top: 10vh;
+}
+.SubTitle
+{
+    font-weight:lighter;
+}
+h3
+{
+    margin-left: 10vh;
+}
+.Partners
+{
+    display: flex;
+    justify-content: space-around;
+}
+.OurPartners
+{
+    text-align: center;
+    flex-shrink: 1;
+}
+.Logos
+{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+footer
+{
+    background-color:#FFE9D0;
+    color: #E6781C;
+}
+footer i 
+{
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+iframe
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.Iconees
+{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1100px)
+{
+    .Title
+    {
+        font-size: 10vh;
+    }
+    .SecondSectionTitle
+    {
+        font-size: 8vh;
+    }
+}
+@media screen and (max-width: 700px)
+{
+    .Title
+    {
+        font-size: 8vh;
+    }
+    .SecondSectionTitle
+    {
+        font-size: 6vh;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .Title
+    {
+        font-size: 6vh;
+    }
+    .SecondSectionTitle
+    {
+        font-size: 6vh;
+    }
+    .TitleMap, .SubTitle
+    {
+        padding-right: 4vh;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .Title
+    {
+        font-size: 6vh;
+    }
+    .SecondSectionTitle
+    {
+        font-size: 6vh;
+        text-align: center;
+    }
+    .Program
+    {
+        flex-direction: column;
+    }
+    .IntroProgram
+    {
+        padding-bottom: 20px;
+    }
+    .Agenda
+    {
+        padding-left: 10px;
+    }
+    .Icones
+    {
+        display: none;
+    }
+}
